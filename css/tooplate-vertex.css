@@ -9,10 +9,19 @@ https://www.tooplate.com/view/2124-vertex
 /* Loader 
 https://ihatetomatoes.net/create-custom-preloading-screen/
 */
+.centerme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
 #script {
   font-family: 'Dancing Script', cursive;
   text-align: center;
-  font-size: 5rem;
+  font-size: 2rem;
   padding-bottom: 6rem;
 }
 #loader-wrapper {
@@ -228,6 +237,15 @@ footer {
 .tm-text-primary {
   color: #99cc99;
 }
+#tm-text-primary {
+  color: #99cc99;
+  margin-bottom: -50px;
+}
+
+/* @media (max-width: 1710px) {
+  #script{
+    font-size: 2rem;
+  }} */
 .tm-text-secondary {
   color: orange;
 }
